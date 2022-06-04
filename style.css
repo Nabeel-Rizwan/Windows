@@ -29,8 +29,7 @@ span{
     z-index: 110;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 1px 1px 10px 10px darkblue;
-
+    box-shadow: 0.5px 0.5px 10px 5px darkblue;
 }
 
 .start{
@@ -44,7 +43,7 @@ span{
 
 .start img{
     border-radius: 8px;
-    box-shadow: 1px 1px 10px 10px darkblue;
+    box-shadow: 0.5px 0.5px 10px 5px darkblue;
 
 }
 
@@ -53,7 +52,7 @@ position:absolute;
 right:0;
 bottom:-665px;
 transition: all 0.5s ease-in;
-box-shadow: 1px 1px 10px 10px darkblue;
+box-shadow: 0.5px 0.5px 10px 5px darkblue;
 
 }
 
