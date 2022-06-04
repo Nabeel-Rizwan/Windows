@@ -6,8 +6,8 @@
 body{
     overflow: hidden;
     height: 100vh;
-   background-image: url("bg.jpeg");
-    background-size:100%;
+  background-image: url("bg.jpeg");
+  background-size:100%;
 }
 
 span{
@@ -73,6 +73,8 @@ box-shadow: 0.5px 0.5px 10px 5px darkblue;
 
 .window{
     opacity:0;
+    box-shadow: 0.5px 0.5px 10px 5px darkblue;
+
 }
 
 .icons{
