@@ -4,10 +4,13 @@ let notification = document.getElementsByClassName("notification")[0]
 let right = document.getElementsByClassName("right")[0]
 let nabeel = document.getElementsByClassName("nabeel")[0]
 let windows = document.getElementsByClassName("window")[0]
+let google = document.getElementsByClassName("chrome")[0]
+let sett = document.getElementsByClassName("settings")[0]
 
 nabeel.addEventListener("click", ()=>{
     console.log("clicked");
     if(windows.style.opacity == 0){
+        windows.setAttribute('src', 'explorer.png');
         windows.style.opacity = 1;
     }
     else{
@@ -42,3 +45,17 @@ else{
 }
 });
 
+google.addEventListener("click", ()=>{
+if(windows.style.opacity == 0){
+    windows.setAttribute('src', 'edge.png');
+    windows.style.opacity = 1;
+}
+});
+
+sett.addEventListener("click", ()=>{
+if(windows.style.opacity == 0){
+    windows.setAttribute('src', 'setting.png');
+    windows.style.opacity = 1;
+}
+
+});
