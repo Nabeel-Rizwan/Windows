@@ -36,6 +36,7 @@ span{
     position: absolute; 
     bottom: -655px;
     width: 100%;
+    
     text-align: center;
     transition: all 0.5s ease-in; 
 }
