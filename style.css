@@ -36,7 +36,6 @@ span{
     position: absolute; 
     bottom: -655px;
     width: 100%;
-    
     text-align: center;
     transition: all 0.5s ease-in; 
 }
@@ -75,12 +74,24 @@ box-shadow: 0.5px 0.5px 10px 5px darkblue;
 .window{
     opacity:0;
     box-shadow: 0.5px 0.5px 10px 5px darkblue;
+    position:absolute;
+    left:0;
+    top:0;
+    margin-right:15rem;
+    margin-top:5rem;
+    margin-left:15rem;
+    margin-bottom:5rem;
+    width:60rem;
+    height:38rem;
+    transition:all 0.3s ease-in;
 
 }
 
 .icons{
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-
 }
 
+.icons img{
+    width:35px;
+}
